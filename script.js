@@ -138,26 +138,6 @@ function showCalendar(month, year) {
 
 }
 
-// const cell2 = document.getElementsByClassName("button1");
-// cell2[0].addEventListener("click", date3);
-
-
-// function date4(cell){
-//     console.log(cell);
-    // const ele1 = cell.getAttribute("data-date");
-//     const ele4 = document.getElementsByClassName(ele1);
-//     console.log(ele4);
-//     cell.addEventListener("click", date3(ele1));
-//     console.log(cell);
-
-// }
-// var cells = document.querySelectorAll("td");
-
-// for (var cell of cells) {
-//     console.log(cell);
-
-// }
-
 
 function date5(){
     const value = document.getElementById("value").value;
@@ -197,50 +177,12 @@ function date3(cell){
 }
     
 
-    // const focusedElement  = document.getElementsByClassName("selected");
-    // console.log(focusedElement[0].className);
-    // focusedElement[0].className = `date-picker ${ele}`;
-
-
-
-
-
-// const element3 = document.getElementsByTagName("td");
-// element3.addEventListner('click', date3)
+  
 
 
 const elements = document.getElementsByTagName("td");
 console.log(elements);
 
-// elements.map(element => {
-//     console.log(element);
-// //    element.addEventListner('click', (e)=>{
-// //      console.log('someone hit me');
-// //    });
-// });
-
-
-
-// const ele = document.getElementById("10");
-// console.log(ele);
-// ele.setAttribute("imran","sai111");
-
-
-// const element = document.getElementsByTagName("td");
-// console.log(element);
-// const element2 = element.getAttribute("className").value;
-// console.log(element2);
-// const element3 = document.getElementsByClassName("selected");
-// console.log(element3);
-
-
-
-// const ele2 = document.getElementsByTagName("td")[10];
-// console.log(ele2);
-// const ele1 = ele2.getAttribute("data-date");
-// console.log(ele1);
-
-// alert(document.getElementById("Name"+this.getAttribute("id")).getAttribute(this.getAttribute("attribute")));
 
 
 
